@@ -666,6 +666,7 @@ body {
   height: 600px;
   margin-bottom: 45px;
   align-items: center;
+  justify-content: center;
 }
 
 .gallery-img {
@@ -674,7 +675,6 @@ body {
   object-fit: cover;
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-  background-color: #2a2a2a;
   transition: transform 0.3s ease;
 }
 
@@ -730,6 +730,8 @@ body {
   margin: 0 auto;
   display: block;
   transition: background-color 0.3s ease;
+  margin-top: 230px;
+
 }
 
 .gallery-button:hover {
@@ -781,10 +783,8 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
   gap: 30px;
-  margin-bottom: 40px;
-  max-width: 900px;
-  align-items: center;
-  justify-content: center;
+  margin: 0 auto 40px auto;  max-width: 900px;
+  place-items: center;
 }
 
 .partner-item {
